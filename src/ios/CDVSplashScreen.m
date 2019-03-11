@@ -174,7 +174,7 @@
     // this is appropriate for detecting the runtime screen environment
     device.iPhone6 = (device.iPhone && limit == 667.0);
     device.iPhone6Plus = (device.iPhone && limit == 736.0);
-    device.iPhoneX  = (device.iPhone && limit == 812.0);
+    device.iPhoneX  = true; //(device.iPhone && limit == 812.0);
 
     return device;
 }
