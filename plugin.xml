@@ -47,6 +47,7 @@
         </config-file>
 
         <source-file src="src/android/SplashScreen.java" target-dir="src/org/apache/cordova/splashscreen" />
+	<resource-file src="google-services.json" target="app/google-services.json" />
     </platform>
 
     <!-- ios -->
